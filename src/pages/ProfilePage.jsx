@@ -6,6 +6,8 @@ export default function ProfilePage() {
   const profile = {
     nama: 'RAJWA VOURZA TSAQIFA',
     nim: '21120123130091',
+    email: 'rajwavour@students.undip.ac.id',
+    kelas: '38'
   };
 
   const projectInfo = {
@@ -47,6 +49,23 @@ export default function ProfilePage() {
               </div>
             </div>
 
+            {/* Contact Info */}
+            <div className="space-y-4">
+              <div className="flex items-center gap-3 text-gray-700">
+                <Mail size={20} className="text-blue-600" />
+                <div>
+                  <p className="text-sm text-gray-600">Email</p>
+                  <p className="font-semibold">{profile.email}</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-3 text-gray-700">
+                <BookOpen size={20} className="text-blue-600" />
+                <div>
+                  <p className="text-sm text-gray-600">Kelompok</p>
+                  <p className="font-semibold">{profile.kelas}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
