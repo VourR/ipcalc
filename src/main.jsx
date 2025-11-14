@@ -42,8 +42,7 @@ function AppRoot() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="mb-2">© 2025 My IP Calculator PWA. All rights reserved.</p>
-          <p className="text-gray-400 text-sm">Built for Praktikum PPB Modul 4</p>
+          <p className="mb-2">©2025 IP Calculator PWA. All rights reserved.</p>
         </div>
       </footer>
 
